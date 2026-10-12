@@ -43,7 +43,7 @@ def main():
     f12 = [i ** 2 for i in range(20) if str(i**2)[-1]=="4"]
     print(f12)
 
-    f13 = [chr(i).upper() for i in range(ord('a'), ord('z'))]
+    f13 = [chr(i).upper() for i in range(ord('a'), ord('z')+1)]
     print(''.join(f13))
 
     f14 = [' apple ', ' banana ', ' kiwi']
